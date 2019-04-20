@@ -123,9 +123,9 @@ namespace AlgorithmsTests.Properties {
         ///1548008755920
         /// [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string Fibonacci {
+        internal static string fibonacci {
             get {
-                return ResourceManager.GetString("Fibonacci", resourceCulture);
+                return ResourceManager.GetString("fibonacci", resourceCulture);
             }
         }
         

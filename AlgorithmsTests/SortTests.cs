@@ -34,7 +34,7 @@ namespace Algorithms.Tests
             million = GetInt(AlgorithmsTests.Properties.Resources.million);
             milSorted = GetInt(AlgorithmsTests.Properties.Resources.milSort);
             revMilSorted = GetInt(AlgorithmsTests.Properties.Resources.milRevSort);
-            fibHund = GetFibo(AlgorithmsTests.Properties.Resources.Fibonacci);
+            fibHund = GetFibo(AlgorithmsTests.Properties.Resources.fibonacci);
 
         }
         [TestMethod()]

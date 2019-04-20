@@ -70,7 +70,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\Fibonacci.txt" />
+    <Content Include="Resources\fibonacci.txt" />
     <Content Include="Resources\million.txt" />
     <Content Include="Resources\milRevSort.txt" />
     <Content Include="Resources\milSort.txt" />
