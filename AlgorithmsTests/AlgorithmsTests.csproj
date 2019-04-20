@@ -81,6 +81,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Fibonacci.txt" />
+    <Content Include="Resources\million.txt" />
+    <Content Include="Resources\milRevSort.txt" />
+    <Content Include="Resources\milSort.txt" />
+    <Content Include="Resources\revSort.txt" />
     <Content Include="Resources\sorted.txt" />
     <Content Include="Resources\unsorted.txt" />
   </ItemGroup>

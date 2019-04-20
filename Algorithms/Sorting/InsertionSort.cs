@@ -1,21 +1,21 @@
-﻿namespace Algorithms
+namespace Algorithms.Sorting
 {
     public class InsertionSort
     {
-        public static int[] Sort(int[] input)
+        public static int[] Sort(int[] inp)
         {
-            for (int i = 1; i < input.Length; i++)
+            for (int i = 1; i < inp.Length; i++)
             {
                 int j = i;
-                int n = input[j];
+                int n = inp[j];
 
-                while (j > 0 && input[j - 1] > n)
+                while (j > 0 && inp[j - 1] > n)
                 {
-                    input[j] = input[--j];
+                    inp[j] = inp[--j];
                 }
-                input[j] = n;
+                inp[j] = n;
             }
-            return input;
+            return inp;
         }
     }
 }

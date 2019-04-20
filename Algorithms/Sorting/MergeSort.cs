@@ -1,29 +1,25 @@
-﻿using System;
+using System;
 
-namespace Algorithms
+namespace Algorithms.Sorting
 {
     public class MergeSort
     {
-        private static int[] merge(int[] a, int[] b)
+        private static int[] Merge(int[] a, int[] b)
         {
-            int len = a.Length + b.Length;
-            int i = 0, ia = 0, ib = 0;
+            int ia = 0, ib = 0;
+            int[] retVal = new int[a.Length + b.Length];
 
-            int[] retVal = new int[len];
-
-            while (i < len)
+            for (int i = 0; i < a.Length + b.Length;)
             {
-                if (ia == a.Length || ib == b.Length)
+                if (ia == a.Length && ib != b.Length)
                 {
-                    if (ia == a.Length && ib != b.Length)
-                    {
-                        Array.Copy(b, ib, retVal, i, b.Length - ib);
-                    }
-                    else
-                    {
-                        Array.Copy(a, ia, retVal, i, a.Length - ia);
-                    }
-                    i = len;
+                    Array.Copy(b, ib, retVal, i, retVal.Length - i);
+                    i = retVal.Length;
+                }
+                else if (ib == b.Length && ia != a.Length)
+                {
+                    Array.Copy(a, ia, retVal, i, retVal.Length - i);
+                    i = retVal.Length;
                 }
                 else
                 {
@@ -39,6 +35,7 @@ namespace Algorithms
             }
             return retVal;
         }
+
         public static int[] Sort(int[] inp)
         {
             if (inp.Length == 1)
@@ -47,9 +44,9 @@ namespace Algorithms
             }
             else
             {
-                int mid = inp.Length / 2;
-                int[] a = new int[mid];
-                int[] b = new int[inp.Length - mid];
+                //Divide
+                int[] a = new int[inp.Length / 2];
+                int[] b = new int[inp.Length - a.Length];
 
                 Array.Copy(inp, 0, a, 0, a.Length);
                 Array.Copy(inp, a.Length, b, 0, b.Length);
@@ -57,7 +54,7 @@ namespace Algorithms
                 a = Sort(a);
                 b = Sort(b);
 
-                return merge(a, b);
+                return Merge(a, b);
             }
         }
     }

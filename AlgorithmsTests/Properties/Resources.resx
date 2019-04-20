@@ -121,6 +121,18 @@
   <data name="Fibonacci" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\fibonacci.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="million" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\million.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="milRevSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\milrevsort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="milSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\milsort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="revSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\revsort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
   <data name="sorted" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\sorted.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
