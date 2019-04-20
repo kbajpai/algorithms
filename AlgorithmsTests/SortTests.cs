@@ -35,7 +35,6 @@ namespace Algorithms.Tests
             milSorted = GetInt(AlgorithmsTests.Properties.Resources.milSort);
             revMilSorted = GetInt(AlgorithmsTests.Properties.Resources.milRevSort);
             fibHund = GetFibo(AlgorithmsTests.Properties.Resources.fibonacci);
-
         }
         [TestMethod()]
         public void InsertionSortTestBigO()
@@ -102,14 +101,6 @@ namespace Algorithms.Tests
         {
             var actual = BubbleSort.Sort(unsortedTenThou);
             CollectionAssert.AreEqual(sortedTenThou, actual);
-        }
-        [TestMethod()]
-        public void FiboTest()
-        {
-            Assert.AreEqual(1, Fibonacci.GetFibo(1));
-            Assert.AreEqual(1, Fibonacci.GetFibo(2));
-            Assert.AreEqual(2, Fibonacci.GetFibo(3));
-            Assert.AreEqual(double.Parse("832040"), Fibonacci.GetFibo(30));
         }
     }
 }
