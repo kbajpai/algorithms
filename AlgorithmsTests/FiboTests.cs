@@ -1,7 +1,7 @@
 ﻿using Algorithms.Sorting;
 using NUnit.Framework;
 
-namespace AlgorithmsTests
+namespace Algorithms.Tests
 {
     [TestFixture]
     public class FiboTests
