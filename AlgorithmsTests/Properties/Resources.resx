@@ -118,25 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="million" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\million.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="FIBONACCI" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FIBONACCI.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="milRevSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\milrevsort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="NUMS_MILLION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS_MILLION.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="milSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\milsort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="NUMS_MILLION_SORTED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS-MILLION-SORTED.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="revSort" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\revsort.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="NUMS_MILLION_SORTED_REVERSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS-MILLION-SORTED_REVERSE.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="sorted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sorted.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="NUMS_TEN_MILLION" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS-TEN_MILLION.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="unsorted" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\unsorted.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  <data name="NUMS_TEN_MILLION_SORTED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS-TEN_MILLION-SORTED.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="fibonacci" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fibonacci.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="NUMS_TEN_MILLION_SORTED_REVERSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS-TEN_MILLION-SORTED_REVERSE.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="NUMS_TEN_THOUSAND" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS-TEN_THOUSAND.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="NUMS_TEN_THOUSAND_SORTED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS-TEN_THOUSAND-SORTED.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="NUMS_TEN_THOUSAND_SORTED_REVERSE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NUMS-TEN_THOUSAND-SORTED_REVERSE.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
 </root>

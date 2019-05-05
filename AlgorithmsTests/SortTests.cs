@@ -1,5 +1,4 @@
 ﻿using Algorithms.Sorting;
-//using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NUnit.Framework;
 using System;
 
@@ -14,6 +13,9 @@ namespace Algorithms.Tests
         private int[] million = null;
         private int[] milSorted = null;
         private int[] revMilSorted = null;
+        private int[] tenMill = null;
+        private int[] tenMillSort = null;
+        private int[] tenMillRevSort = null;
 
         private int[] GetInt(string lines)
         {
@@ -23,12 +25,16 @@ namespace Algorithms.Tests
         [OneTimeSetUp]
         public void Setup()
         {
-            sortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.sorted);
-            revSortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.revSort);
-            unsortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.unsorted);
-            million = GetInt(AlgorithmsTests.Properties.Resources.million);
-            milSorted = GetInt(AlgorithmsTests.Properties.Resources.milSort);
-            revMilSorted = GetInt(AlgorithmsTests.Properties.Resources.milRevSort);
+            million = GetIntegers()
+            //sortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.sorted);
+            //revSortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.revSort);
+            //unsortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.unsorted);
+            //million = GetInt(AlgorithmsTests.Properties.Resources.million);
+            //milSorted = GetInt(AlgorithmsTests.Properties.Resources.milSort);
+            //revMilSorted = GetInt(AlgorithmsTests.Properties.Resources.milRevSort);
+            //tenMill = GetInt(AlgorithmsTests.Properties.Resources.tenMill);
+            //tenMillRevSort = GetInt(AlgorithmsTests.Properties.Resources.tenMillRevSort);
+            //tenMillSort = GetInt(AlgorithmsTests.Properties.Resources.tenMillSort);
         }
         [Test]
         public void InsertionSortTestBigO()
@@ -85,9 +91,39 @@ namespace Algorithms.Tests
             CollectionAssert.AreEqual(milSorted, actual);
         }
         [Test]
-        public void BubbleSortTest_Big()
+        public void MergeSortTestTenMilBestCase()
+        {
+            var actual = MergeSort.Sort(tenMillSort);
+            CollectionAssert.AreEqual(tenMillSort, actual);
+        }
+        [Test]
+        public void MergeSortTestTenMilAvgCase()
+        {
+            var actual = MergeSort.Sort(tenMill);
+            CollectionAssert.AreEqual(tenMillSort, actual);
+        }
+        [Test]
+        public void MergeSortTestTenMilWorstCase()
+        {
+            var actual = MergeSort.Sort(tenMillRevSort);
+            CollectionAssert.AreEqual(tenMillSort, actual);
+        }
+        [Test]
+        public void BubbleSortTestBigO()
         {
             var actual = BubbleSort.Sort(unsortedTenThou);
+            CollectionAssert.AreEqual(sortedTenThou, actual);
+        }
+        [Test]
+        public void BubbleSortTestBestCase()
+        {
+            var actual = BubbleSort.Sort(sortedTenThou);
+            CollectionAssert.AreEqual(sortedTenThou, actual);
+        }
+        [Test]
+        public void BubbleSortTestWorstCase()
+        {
+            var actual = BubbleSort.Sort(revSortedTenThou);
             CollectionAssert.AreEqual(sortedTenThou, actual);
         }
     }
