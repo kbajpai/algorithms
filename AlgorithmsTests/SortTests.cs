@@ -25,7 +25,7 @@ namespace Algorithms.Tests
         [OneTimeSetUp]
         public void Setup()
         {
-            million = GetIntegers()
+            //million = GetIntegers()
             //sortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.sorted);
             //revSortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.revSort);
             //unsortedTenThou = GetInt(AlgorithmsTests.Properties.Resources.unsorted);

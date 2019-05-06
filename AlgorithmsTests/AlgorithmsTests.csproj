@@ -63,6 +63,10 @@
       <Project>{D13FE130-7BD6-4075-8754-7E3CA1C9AE82}</Project>
       <Name>Algorithms</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CommonUtilities\Common\CommonUtilities.csproj">
+      <Project>{c15771fa-650a-4742-9b5a-5f88c4c13c86}</Project>
+      <Name>CommonUtilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
